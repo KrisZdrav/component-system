@@ -1,13 +1,6 @@
-import React from "react";
 import "./skeleton.css";
 
 const skeleton = () => {
-  const order1 = {
-    "--order": 1,
-  };
-  const order2 = {
-    "--order": "2",
-  };
   return (
     <svg
       width="1280"
@@ -37,7 +30,7 @@ const skeleton = () => {
             fill="#F3F3F3"
           />
         </g>
-        <g id="skeleton" filter="url(#filter2_d_1_3)">
+        <g id="bcg1" filter="url(#filter2_d_1_3)">
           <rect
             id="Rectangle 2"
             x="309"
@@ -176,7 +169,7 @@ const skeleton = () => {
         />
         <rect
           style={{ "--order": 2 } as React.CSSProperties}
-          id="over2 --order2"
+          id="over2"
           x="250"
           y="326"
           width="90"
@@ -184,7 +177,7 @@ const skeleton = () => {
           rx="7"
           fill="#A1DAA6"
         />
-        <g style={{ "--order": 3 } as React.CSSProperties} id="over3">
+        <g style={{ "--order": 1 } as React.CSSProperties} id="over3">
           <path
             id="Polygon 3"
             d="M130 460L162.043 503.5H97.9571L130 460Z"
@@ -206,7 +199,7 @@ const skeleton = () => {
             fill="#F3F3F3"
           />
         </g>
-        <g id="skeleton2">
+        <g id="bcg2">
           <rect
             id="Rectangle 5_2"
             x="543"
@@ -253,11 +246,11 @@ const skeleton = () => {
           </g>
         </g>
         <g
-          style={{ "--order": 5 } as React.CSSProperties}
+          style={{ "--order": 1 } as React.CSSProperties}
           id="over4"
           filter="url(#filter5_d_1_3)"
         >
-          <circle cx="654.5" cy="267.5" r="44.5" fill="#A1DAA6" />
+          <circle cx="654.5" cy="266.5" r="44.5" fill="#A1DAA6" />
         </g>
         <rect
           style={{ "--order": 6 } as React.CSSProperties}
@@ -279,7 +272,7 @@ const skeleton = () => {
           rx="7"
           fill="#A1DAA6"
         />
-        <g id="skeleton3">
+        <g id="bcg3">
           <circle
             id="Ellipse 3"
             cx="977.5"
@@ -618,7 +611,7 @@ const skeleton = () => {
         <filter
           id="filter5_d_1_3"
           x="606"
-          y="223"
+          y="222"
           width="97"
           height="97"
           filterUnits="userSpaceOnUse"
